@@ -1,0 +1,254 @@
+.main-wrapper{
+    width: 100%;
+    min-width:58.625em;
+}
+.header{
+    margin: 0 auto;
+    min-width: 58.625em;
+    width: 100%;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }  
+
+.footer{
+    background-color:#727272;;
+    min-width: 58.625em;
+    width: 100%;
+}
+
+.footer-wrapper{
+    width: 58.625em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    line-height: 40px;
+}
+.up-wrapper{
+    width: 58.625em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+.down-wrapper{
+    width: 58.625em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body-wrapper{
+    width: 58.625em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.up{
+    background-color: #7dd9e8;
+    
+}
+.down{
+    background-color:#f5f5f5;
+}
+
+.left-main{
+    width: 81.2366%;
+}
+.right-side{
+width: 18.7633%;
+padding-top: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.left-side{
+    width: 25.4599%;
+    padding-top: 10px;
+    margin-top: 20px;
+margin-bottom: 20px;
+}
+.main-side{
+    width: 68.2433%;
+    padding-top: 10px;
+    margin-left: 0%;
+    margin-right: 3.1497%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.entry-sub{
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 37px;
+    height: auto;
+}
+.tab{
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+}
+.tab-head{
+    width: 99.6154%;
+    background-image: url(../images/tabs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.entries{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.main-post{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.box{
+    margin-top: 20px; 
+   border-bottom: 1px solid rgba(132, 161, 151, 0.5);
+}
+.post-content{
+}
+.left-img-form{
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .main-wrapper{
+        width: 100%;
+        min-width: 20em;
+    }
+    .header{
+        margin: 0 auto;
+        min-width: 20em;
+    }
+    .clearfix::before, .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }  
+    
+    .footer{
+        background-color:#727272;;
+        min-width: 20em;
+        height: auto;
+    }
+    
+    .footer-wrapper{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0%;
+        line-height: 40px;
+        height: auto;
+    }
+    .up-wrapper{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0%;
+    }
+    .down-wrapper{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    .body-wrapper{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    
+    }
+    .body-out{
+        width: 100%;
+        min-width: 20em;
+    }
+    .up{
+        background-color: #7dd9e8;
+        width: 100%;
+    }
+    .down{
+        background-color:#f5f5f5;
+        width: 100%;
+    }
+    
+    .left-main{
+        width: 100%;
+    }
+    .right-side{
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+    }
+    .left-side{
+        width: 100%;
+        padding-top: 10px;
+        margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+    }
+    .main-side{
+        width: 100%;
+        padding-top: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 3%;
+        margin-bottom: 20px;
+    }
+    .entry-sub{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 60px;
+        font-size: 20px;
+    }
+    .entry-sub div{
+        width: 50%;
+    text-align: center;
+    }
+    .tab{
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 30px;
+        margin-top: 2%;
+    }
+    .tab-head{
+        width: 99.6154%;
+        background-color: #f5f5f5;
+        background-image: none;
+        height: auto;
+    }
+    .entries{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .main-post{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .box{
+        margin-top: 8%;
+        margin-right: 2%;
+        margin-left: 3%;
+        width: 95%;
+    border-bottom: 1px solid rgba(132, 161, 151, 0.5);
+    }
+    .post-content{
+    }
+    .left-img-form{
+        float: none;
+    width: 100%;
+    margin-left: 2%;
+    }
+}
